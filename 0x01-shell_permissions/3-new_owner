@@ -1,2 +1,2 @@
 #!/bin/bash
-Your command goes here....
+sudo chown betty hello
