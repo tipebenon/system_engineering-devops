@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
-#Stop Me if You Can
-pkill -f "7-highlander"
+#my_script
+trap 'echo "I am invincible!!!"' SIGTERM
+while true;do
+    echo "To infinity and beyond"
+    sleep 2 
+done
