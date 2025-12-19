@@ -1,2 +1,2 @@
 #!/bin/bash
-eco "Hello, World"
+cat /etc/passwd /etc/hosts
